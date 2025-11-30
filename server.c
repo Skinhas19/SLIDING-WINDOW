@@ -55,9 +55,6 @@ void die(char *s) {
 // ===================================================================
 // LÓGICA DO RECEPTOR (Server receiving Upload)
 // ===================================================================
-// ===================================================================
-// LÓGICA DO RECEPTOR (Server receiving Upload)
-// ===================================================================
 void run_sr_receiver(int sock, const char* filename, struct sockaddr_in remote_addr, socklen_t remote_len) {
     FILE *fp = fopen(filename, "wb");
     if (!fp) die("fopen");
