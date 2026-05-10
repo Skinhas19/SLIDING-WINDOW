@@ -1,0 +1,1 @@
+Este projeto foi desenvolvido para a disciplina de Redes de Computadores com o objetivo de implementar um mecanismo de confiabilidade sobre o protocolo UDP utilizando o conceito de Janelas Deslizantes (Sliding Window Protocol).
